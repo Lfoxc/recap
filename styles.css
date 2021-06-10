@@ -1,6 +1,67 @@
+/*
+Main red color: #EF0F0F;
+text color: #FFFFFF
+font-family: 'EB Garamond', serif;
+accent color: #000000
+*/
+
 *{
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
-  font-size30px;
+  font-size: 20px;
+}
+
+header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #EF0F0F;
+}
+
+
+nav li, nav a{
+  display: inline-block;
+}
+
+nav ul{
+  float: right;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 20px, 25px;
+  color: #FFFFFF;
+}
+
+nav li{
+  padding: 25px;
+}
+
+nav a:hover{
+  color: #000000;
+}
+
+.hero.img{
+  background-image: url(hero-image/main.jpg)
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero.img h1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: #FFFFFF;
+  font-size: 250%;
+}
+
+.text-block p{
+  margin: 50px, auto;
+  max-width: 1200px;
+  width: 80%;
+  line-height: 150%;
+  text-align: justify;
 }
