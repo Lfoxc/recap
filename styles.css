@@ -42,15 +42,23 @@ nav a:hover{
   color: #000000;
 }
 
-.hero.img{
-  background-image: url(hero-image/main.jpg)
+.hero-img{
+  background-image: url(hero/main.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.hero.img h1{
+.hero-img h1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: #FFFFFF;
+  font-size: 250%;
+}
+
+.hero-img h3{
   position: absolute;
   top: 30%;
   left: 50%;
@@ -59,9 +67,9 @@ nav a:hover{
 }
 
 .text-block p{
-  margin: 50px, auto;
+  margin: 50px auto;
   max-width: 1200px;
-  width: 80%;
+  width: 85%;
   line-height: 150%;
   text-align: justify;
 }
