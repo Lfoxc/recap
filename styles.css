@@ -51,7 +51,7 @@ nav a:hover{
 }
 
 .hero-img h1{
-  position: absolute;
+  text-align: center;
   top: 30%;
   left: 50%;
   color: #FFFFFF;
@@ -59,7 +59,7 @@ nav a:hover{
 }
 
 .hero-img h3{
-  position: absolute;
+  text-align: center;
   top: 30%;
   left: 50%;
   color: #FFFFFF;
@@ -72,4 +72,11 @@ nav a:hover{
   width: 85%;
   line-height: 150%;
   text-align: justify;
+}
+
+section{
+  margin: 0 auto;
+}
+.trailer{
+  text-align: center;
 }
