@@ -69,14 +69,25 @@ nav a:hover{
 .text-block p{
   margin: 50px auto;
   max-width: 1200px;
-  width: 85%;
+  width: 80%;
   line-height: 150%;
   text-align: justify;
 }
 
-section{
-  margin: 0 auto;
-}
+
 .trailer{
-  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  padding: 50px;
+  text-align: justify;
+}
+
+
+footer{
+  background-color: #EF0F0F;
+  color: #FFFFFF;
+  padding:20px 25px;
 }
