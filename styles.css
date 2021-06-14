@@ -94,7 +94,23 @@ nav a:hover{
 }
 
 #manga {
-  background-image: url(hero/mag);
+  background-image: url(hero/mag.jpg);
+}
+
+#light{
+  background-image: url(hero/fan.jpg);
+}
+
+.image-gallery{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.image-gallery img{
+  width: 200px;
 }
 
 footer{
